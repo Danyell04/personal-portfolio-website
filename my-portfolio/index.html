@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Danielle Parales</title>
+    
+<link rel="icon" href="./images/favicon.png?v=2" type="image/png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==============================
+            HEADER AND NAVIGATION
+    ============================== -->
+
+    <header>
+        <div class="wrap">
+
+            <b>Danielle Parales</b>
+
+            <nav>
+                <a href="#home" class="on">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects &amp; Certificates</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- ==============================
+            HOME SECTION
+    ============================== -->
+
+    <section id="home">
+        <div class="wrap">
+
+            <h1>
+                Danielle Parales.<br>
+                <em>I make things</em><br>
+                <em>that work well.</em>
+            </h1>
+
+            <p>
+                I am a Computer Science student passionate about technology, programming, and creating practical digital solutions.
+            </p>
+
+            <div class="links">
+                <a href="#projects">See my work</a>
+                <a href="#contact">Get in touch</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==============================
+            ABOUT SECTION
+    ============================== -->
+
+    <section id="about">
+        <div class="wrap rvx">
+
+            <p class="label">About</p>
+
+            <div class="about">
+
+                <img
+    id="avatar"
+    src="images/profile.jpg"
+    alt="Danielle Parales Profile Photo"
+    onclick="document.getElementById('lb').classList.add('on')"
+>
+
+                <div>
+
+                    <p>
+                        "I enjoy exploring new ideas, learning different skills, and creating meaningful projects. I am always eager to improve, challenge myself, and turn my creativity into something useful and inspiring. In my free time, I enjoy playing video games, learning new things, exploring technology, and traveling to discover new places. I also love trying different experiences, discovering new interests, and making the most out of every opportunity to learn and grow."
+                    </p>
+
+                    <p class="sk" id="skills"></p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ==============================
+            PROJECTS AND CERTIFICATES
+    ============================== -->
+
+    <section id="projects">
+        <div class="wrap">
+
+            <p class="label">Projects &amp; Certificates</p>
+
+            <div class="grid" id="grid"></div>
+
+        </div>
+    </section>
+
+
+    <!-- ==============================
+            CONTACT SECTION
+    ============================== -->
+
+    <section id="contact">
+        <div class="wrap">
+
+            <p class="label">Contact</p>
+
+            <h2>
+                Have an idea?<br>
+                <em>Let's talk.</em>
+            </h2>
+
+            <div class="contact">
+
+                <!-- Contact Information -->
+
+                <div class="info">
+
+                    <p>dprlszq@gmail.com</p>
+                    <p>+63 954 183 5894</p>
+                    <p>Bacoor City, Cavite, Philippines</p>
+
+                    <div class="s">
+                        <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/" target="_blank">GitHub</a>
+                        <a href="https://facebook.com/" target="_blank">Facebook</a>
+                    </div>
+
+                </div>
+
+
+                <!-- Contact Form -->
+
+                <form id="form">
+
+                    <input
+                        id="n"
+                        placeholder="Name"
+                        required
+                    >
+
+                    <input
+                        id="e"
+                        type="email"
+                        placeholder="Email"
+                        required
+                    >
+
+                    <textarea
+                        id="m"
+                        rows="3"
+                        placeholder="Message"
+                        required
+                    ></textarea>
+
+                    <button class="send" type="submit">
+                        Send message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ==============================
+            FOOTER
+    ============================== -->
+
+    <footer>
+        © <span id="yr"></span> Danielle Parales<br>
+        Click the pets 🐾
+    </footer>
+
+
+    <!-- ==============================
+            IMAGE LIGHTBOX
+    ============================== -->
+
+    <div id="lb">
+        <img alt="">
+    </div>
+
+
+    <!-- ==============================
+            JAVASCRIPT FILE
+    ============================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
